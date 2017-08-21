@@ -1,0 +1,59 @@
+{
+  "name": "github-trees",
+  "description": "Get a tree from a GitHub repository.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/github-trees",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/github-trees",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/github-trees/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "commits": "^0.1.0",
+    "github-base": "^0.5.4",
+    "isobject": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.0"
+  },
+  "keywords": [
+    "api",
+    "gh",
+    "github",
+    "trees"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "get-file",
+        "gists",
+        "github-base",
+        "repos",
+        "topics"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
