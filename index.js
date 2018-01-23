@@ -15,7 +15,9 @@ module.exports = function(owner, repo, options) {
 
   return commits(opts)
     .then(function(commits) {
-      opts.sha = commits[0].sha;
+      if (!opts.sha) {
+        opts.sha = commits[0].sha;
+      }
 
       return new Promise(function(resolve, reject) {
         github.get(url, opts, function(err, files) {
