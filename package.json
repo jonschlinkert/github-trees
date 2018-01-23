@@ -1,7 +1,7 @@
 {
   "name": "github-trees",
   "description": "Get a tree from a GitHub repository.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/github-trees",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/github-trees",
